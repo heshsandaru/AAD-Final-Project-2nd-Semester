@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="../assets/styles/bootstrap-5.2.1-dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<header>
+    <!--Nav started-->
+    <nav class="navbar navbar-expand-lg navbar-light shadow-lg posNavi position-relative rounded-bottom">
+        <div class="container-fluid">
+            <a class="navbar-brand text-dark fw-bold " href="#">
+                <img alt="Logo" class="d-inline-block align-text-center" height="44" src="../assets/images/logo.png"
+                     width="50">
+                <span class="text-success"> Find </span> Places&Furniture
+            </a>
+            <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                    class="navbar-toggler" data-bs-target="#navbarSupportedContent"
+                    data-bs-toggle="collapse" type="button">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item" id="homeBtn">
+                        <a aria-current="page" class="nav-link active" href="userDashBoard.html">Home</a>
+                    </li>
+                    <li class="nav-item" id="palceBtn">
+                        <a class="nav-link" href="place.html">Places</a>
+                    </li>
+                    <li class="nav-item" id="itemBtn">
+                        <a class="nav-link" href="UserItems.html">Items</a>
+                    </li>
+                </ul>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                    <a class="" type=""><i class=""></i>
+                        <a href="tel:+94777687054" class="text-success"> Contact Us : 0777687054</a>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--Nav ended-->
+
+
+</header>
+<main class="container-fluid" id="CustomerSection">
+    <div class="container d-flex flex-grow-1 flex-column">
+        <div class="position-relative d-inline-block mt-3 mt-lg-4 mt-md-4">
+            <h2 id="H1-3" style="font-family: 'Arial Rounded MT Bold',serif"><i class="bi bi-people"></i> Place
+            </h2>
+        </div>
+    </div>
+    <div class="container d-flex flex-grow-1 flex-column sectionBorder" style="background-color: #dfe4ea">
+        <div class="position-relative d-inline-block mt-3 mt-lg-4 mt-md-4">
+            <h6 id="H6">Home > Place</h6>
+            <hr>
+        </div>
+
+    <div class="container">
+        <h1 class="text-center my-4">Places</h1>
+        <div class="row mt-1 mt-md-2 mt-lg-4 justify-content-around" style="height: 320px;">
+        <div class="col-11 justify-content-around sectionBorder" style="height: 290px; background: white">
+        <div class="customerTableDiv overflow-auto" style="height: 270px;">
+        <table class="table table-success table-striped table-bordered table-hover">
+            <thead class="text-light table-dark text-center  table-bordered sticky-top">
+            <tr>
+                <th>ID</th>
+                <th>Location</th>
+                <th>Category</th>
+                <th>Number</th>
+                <th>Price</th>
+                <th>Action</th>
+            </tr>
+            </thead>
+            <tbody id="placeTable">
+            <!-- Data will be inserted here -->
+            </tbody>
+        </table>
+        </div>
+        </div>
+        </div>
+
+    </div>
+    </div>
+</main>
+<script src="../assets/styles/bootstrap-5.2.1-dist/js/bootstrap.min.js"></script>
+<script rel="script" src="../assets/styles/jQuery/jquery-3.6.1.min.js"></script>
+
+<script rel="script" src="../controllers/createProductController.js"></script>
+
+</body>
+</html>
