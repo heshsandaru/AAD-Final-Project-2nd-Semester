@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Web POS</title>
-    <meta content="width=device-width, initial-scale=1" name="viewport">
-    <!--link Bootstrap Framework-->
-    <link href="../assets/styles/bootstrap-5.2.1-dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="../assets/styles/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="../assets/styles/style.css" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>About | FindPlaces and Furnitures</title>
+
+    <!-- Bootstrap 5 CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Custom CSS -->
     <style>
         body {
             font-family: 'Segoe UI', sans-serif;
@@ -47,7 +48,6 @@
     </style>
 </head>
 <body>
-
 <header>
     <!--Nav started-->
     <nav class="navbar navbar-expand-lg navbar-light shadow-lg posNavi position-relative rounded-bottom">
@@ -64,16 +64,19 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
                     <li class="nav-item" id="homeBtn">
                         <a aria-current="page" class="nav-link active" href="userDashBoard.html">Home</a>
                     </li>
-                    <li class="nav-item" id="placeBtn">
-                        <a class="nav-link" href="place.html">Place</a>
+                    <li class="nav-item" id="palceBtn">
+                        <a class="nav-link" href="place.html">Places</a>
                     </li>
-
                     <li class="nav-item" id="itemBtn">
                         <a class="nav-link" href="UserItems.html">Items</a>
                     </li>
+
+
+
 
                 </ul>
                 <div class="d-grid gap-2 d-md-flex justify-content-md-end">
@@ -87,7 +90,7 @@
     <!--Nav ended-->
 </header>
 
-<!-- Home Start-->
+<!-- About Section -->
 <section class="container about-section mt-5">
     <div class="text-center">
         <h1 class="about-title">About <span class="highlight">FindPlaces and Furnitures</span></h1>
@@ -119,16 +122,8 @@
 <footer>
     &copy; 2025 FindPlaces and Furnitures. All rights reserved.
 </footer>
-<!-- Home End-->
 
-<!--Import js for bootstrap-->
-<script src="../assets/styles/bootstrap-5.2.1-dist/js/bootstrap.min.js"></script>
-
-<!--import jQuery library-->
-<script rel="script" src="../assets/styles/jQuery/jquery-3.6.1.min.js"></script>
-<script rel="script" src="../assets/styles/sweetalert2-11.6.16/sweetalert2.min.js"></script>
-<script rel="script" src="../util/alert.js"></script>
-
-<script src="../controllers/DashboardController.js"></script>
+<!-- Bootstrap JS (Optional for components) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
