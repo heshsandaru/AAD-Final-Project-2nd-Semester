@@ -1,5 +1,8 @@
 # Find Places And Furniture
 
+Description- 
+My final project is a website that helps university students easily find boarding places,lands and buy furnitures. It likely includes features such as searching for available rooms, filtering by price and location and contacting landlords. Might also include options for online reviews from past tenants.
+
 This is a Spring Boot Web System.
 ###
 ### - Back End
